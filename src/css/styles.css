@@ -3,7 +3,7 @@ body {
     color: white;
 
     background: 
-        linear-gradient(to left, #0f0a1a, #1a112b),
+        linear-gradient(to right, #0f0a1a, #1a112b),
         linear-gradient(to bottom, #2a1f4a, #3b2c6b);
 }
 
@@ -14,30 +14,43 @@ header {
 .navbar {
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .hero {
-    height: calc(40vh - 70px);
+    height: calc(70vh - 70px);
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
 .hero-text {
-    margin-left: 80px;
+    margin-left: 300px;
 }
 
 .title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .subtitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    color: #a855f7;
+    font-size: 50px;
+    font-weight: bold;
+    color: #cf9bff;
     line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #b3b3b3;
+    max-width: 400px;
+    line-height: 1.6;
+    margin-top: 0;
 }
