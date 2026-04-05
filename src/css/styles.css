@@ -54,3 +54,13 @@ header {
     line-height: 1.6;
     margin-top: 0;
 }
+
+.hero-image img {
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #cf9bff;
+
+    transform: rotate(5deg);
+
+    margin-left: 300px;
+}
