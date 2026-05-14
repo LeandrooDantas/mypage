@@ -82,6 +82,71 @@ header {
     transform: rotate(0deg) scale(1.05);
 }
 
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 32px;
+
+    border: 2px solid #cf9bff;
+    border-radius: 10px;
+
+    color: #cf9bff;
+    background: transparent;
+
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+
+.btn-download:hover {
+    background: #cf9bff;
+    color: #0f0a1a;
+    transform: translateY(-2px);
+}
+
+.btn-download svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+.btn-social {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #cf9bff;
+    border-radius: 10px;
+
+    color: #cf9bff;
+    text-decoration: none;
+
+    font-size: 22px;
+
+    transition: 0.3s ease;
+}
+
+.btn-social:hover {
+    background: #cf9bff;
+    color: #0f0a1a;
+    transform: translateY(-2px);
+}
+
 .skills-section {
     padding: 100px 10%;
     text-align: center;
